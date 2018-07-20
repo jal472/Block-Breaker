@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour {
 
+    private Block blocks;
+
 	public void LoadNextScene()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
@@ -17,6 +19,7 @@ public class SceneLoader : MonoBehaviour {
         }
         else
         {
+            Block.blockCount = 0;
             SceneManager.LoadScene(currentSceneIndex + 1);
         }
         

@@ -10,6 +10,7 @@ public class LoseCollider : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Block.blockCount = 0;
         SceneManager.LoadScene(gameOverScene);
     }
 }

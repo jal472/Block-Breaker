@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/Jack LoCasto/Desktop/Practice/Games/Block Breaker beta/Block Breaker.exe
+C:/Users/Jack LoCasto/Desktop/Practice/Games/Block Breaker/Block Breaker.exe
 SceneListBegin?
 Assets/Scenes/Start Menu.unity
 Assets/Scenes/Level 1.unity
