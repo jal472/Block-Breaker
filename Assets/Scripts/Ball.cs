@@ -7,7 +7,11 @@ public class Ball : MonoBehaviour {
 
     private Paddle paddle1;
     [SerializeField] float xVelocity = 2f;
-    [SerializeField] float yVelocity = 12f;
+    [SerializeField] float yVelocity = 10f;
+    float minxSpeed = 1.5f;
+    float minySpeed = 8f;
+    float maxxSpeed = 2.5f;
+    float maxySpeed = 11f;
 
     Vector2 paddleToBallDiff;
     bool launched = false;

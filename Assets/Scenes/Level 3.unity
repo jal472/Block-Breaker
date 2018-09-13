@@ -3097,6 +3097,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114066796065546824, guid: 66cf54780f1b5d54f8efdd662af66282,
+        type: 2}
+      propertyPath: yVelocity
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66cf54780f1b5d54f8efdd662af66282, type: 2}
   m_IsPrefabAsset: 0
@@ -3707,7 +3712,7 @@ Prefab:
     - target: {fileID: 114341070881023580, guid: 934f1fea5d0e6de45ba70451b8e9ba3f,
         type: 2}
       propertyPath: autoPlay
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934f1fea5d0e6de45ba70451b8e9ba3f, type: 2}
